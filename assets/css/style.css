@@ -7993,7 +7993,7 @@ header .main-nav>a {
 }
 
 #anywhere-home {
-  cursor: url(../images/banner/shape/close.png), auto;
+  cursor: url(../images/banner/shape/close.webp), auto;
   background: #0e1013;
   position: fixed;
   width: 100%;
@@ -16434,7 +16434,7 @@ section.main-wrapper-sticky .sticky-statement.narrow .left-side img {
 .single-working-process-one .left .icon::after {
   position: absolute;
   content: "";
-  background-image: url(../images/process/01.png);
+  background-image: url(../images/process/01.webp);
   height: 19px;
   width: 19px;
   background-repeat: no-repeat;
@@ -21959,8 +21959,8 @@ body.with-sticky-item {
 }
 
 .counter-bg {
-  /* background-image: url(../images/counterup/02.png); */
-  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../images/counterup/02.png);
+  /* background-image: url(../images/counterup/02.webp); */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../images/counterup/02.webp);
   height: 340px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -24148,7 +24148,7 @@ body.with-sticky-item {
 }
 
 .rts-client-reviews-h2 .review-header .thumbnail.thumb::after {
-  background-image: url(https://html.themewant.com/invena/assets/images/testimonials/icon/01.png);
+  background-image: url(https://html.themewant.com/invena/assets/images/testimonials/icon/01.webp);
 }
 
 .rts-client-reviews-h2 .review-header .discription {
@@ -24625,23 +24625,23 @@ body.with-sticky-item {
   width: 50px;
   border-radius: 50%;
   transition: 0s;
-  background-image: url(../images/testimonials/avatar/01.png);
+  background-image: url(../images/testimonials/avatar/01.webp);
 }
 
 .mySwiper-testimonails-9 .swiper-pagination .swiper-pagination-bullet:nth-child(2) {
-  background-image: url(../images/testimonials/avatar/02.png);
+  background-image: url(../images/testimonials/avatar/02.webp);
 }
 
 .mySwiper-testimonails-9 .swiper-pagination .swiper-pagination-bullet:nth-child(3) {
-  background-image: url(../images/testimonials/avatar/03.png);
+  background-image: url(../images/testimonials/avatar/03.webp);
 }
 
 .mySwiper-testimonails-9 .swiper-pagination .swiper-pagination-bullet:nth-child(4) {
-  background-image: url(../images/testimonials/avatar/04.png);
+  background-image: url(../images/testimonials/avatar/04.webp);
 }
 
 .mySwiper-testimonails-9 .swiper-pagination .swiper-pagination-bullet:nth-child(5) {
-  background-image: url(../images/testimonials/avatar/05.png);
+  background-image: url(../images/testimonials/avatar/05.webp);
 }
 
 .mySwiper-testimonails-9 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
@@ -25512,7 +25512,7 @@ body.with-sticky-item {
 }
 
 #anywhere-home {
-  cursor: url(../images/banner/shape/close.png), auto;
+  cursor: url(../images/banner/shape/close.webp), auto;
   background: #0e1013;
   position: fixed;
   width: 100%;
@@ -30322,7 +30322,7 @@ body.contact-page .rts-breadcrumb-area .title-area-left {
 }
 
 .full-screen-demo-swiper-main-wrapper .swiper-pagination .swiper-pagination-bullet-active {
-  background-image: url(../images/footer/bullet.png);
+  background-image: url(../images/footer/bullet.webp);
   height: 48px;
   width: 48px;
   background-position: center;

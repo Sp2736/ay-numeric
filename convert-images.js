@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Target your assets directory here. Adjust if your path is different!
-const ASSETS_DIR = './assets/images/**/*.png';
+const ASSETS_DIR = './assets/images/**/*.webp';
 
 try {
   // globSync returns an array of matching file paths synchronously

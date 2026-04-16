@@ -4,7 +4,7 @@ const path = require('path');
 
 // --- CONFIGURATION ---
 // 1. Where are your images located?
-const ASSETS_DIR = './assets/images/**/*.png';
+const ASSETS_DIR = './assets/images/**/*.webp';
 // 2. Where is your source code located? 
 // IMPORTANT: If you use Next.js, this might be './app/**/*...' or './pages/**/*...'
 const SOURCE_FILES = './**/*.{html,css,js,php}';

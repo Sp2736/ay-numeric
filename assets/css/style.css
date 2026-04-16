@@ -135,20 +135,24 @@ body {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  body {
-    overflow: hidden;
-  }
+  body { overflow-x: hidden; }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  body {
-    overflow: hidden;
-  }
+  body { overflow-x: hidden; }
 }
 
 @media only screen and (max-width: 767px) {
-  body {
-    overflow: hidden;
+  body { overflow-x: hidden; }
+  
+  /* Fixes the sidebar padding offset pushing content off-screen */
+  .pl--50 { padding-left: 0 !important; }
+  
+  /* Prevents horizontal overflow in the service features block */
+  .service-short-main-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
   }
 }
 

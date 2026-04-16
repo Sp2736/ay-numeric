@@ -288,7 +288,13 @@
         $("#side-bar").removeClass("show");
         $("#anywhere-home").removeClass("bgshow");
       });
-      $(document).on('click', '.onepage .mainmenu li a', function () {
+      // $(document).on('click', '.onepage .mainmenu li a', function () {
+      //   $("#side-bar").removeClass("show");
+      //   $("#anywhere-home").removeClass("bgshow");
+      // });
+
+      // FIX: This ensures any valid link clicked inside the mobile menu forces the sidebar to close gracefully.
+      $(document).on('click', '.mainmenu li a:not([href="#"])', function () {
         $("#side-bar").removeClass("show");
         $("#anywhere-home").removeClass("bgshow");
       });
